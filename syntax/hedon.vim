@@ -3,8 +3,8 @@ syn region hedonRem start=+rem+ end=+$+
 hi def link hedonRem Comment
 
 " annot
-syn match hedonAnnot /;\|(\|)\|--/
-hi def link hedonAnnot Comment
+" syn match hedonAnnot /;\|\[\|\]\|--/
+" hi def link hedonAnnot Comment
 
 " string
 syn region hedonString start=+"+ skip=+\\\\\|\\"+ end=+"+
